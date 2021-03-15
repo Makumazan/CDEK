@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="./fontawesome-free-5.10.2-web/css/all.css">
+
+    <script src="form.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="black-panel" class="hide"></div>
+    
+    <div class="container header">
+        <div class="row warehouse">
+            <div class="col-lg-2 col-md-7 col-sm-6 col-5 header-logo-wrapper">
+                <div class=" header-logo">
+                    <img src="./imgs/logo.png">
+                </div>
+            </div>
+           
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12 header-navigation">
+                <div class="navigation">
+                    <div class="row header-nav justify-content-around">
+                        <ul class="col-lg-12 row d-flex justify-content-around">
+                            <li><a href="#" class="nav-link text-dark"> Работать с нами</a></li>
+                            <li><a href="#" class="nav-link text-dark"> Почему мы?</a></li>
+                            <li><a href="#" class="nav-link text-dark"> Тарифы</a></li>
+                            <li><a href="#" class="nav-link text-dark"> Калькулятор</a></li>
+                            <li><a href="#" class="nav-link text-dark"> Партнеры</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-6 header-call-us">
+                <div class="header-call-us-wrap" >
+                    <div class="phone-number">
+                        <h5>8(800)123-45-67</h5>
+                    </div>
+                    <div class="header-call-us-text">
+                        <span>Звонок бесплатный по РФ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <hr> 
+
+    <!-- Warehouse -->
+    <div class="container">
+        <div class="warehouse row d-flex">
+
+            <!-- WAREHOUSE FORM -->
+                <div class="col-lg-4 col-md-5 col-sm-6 col-6 form-get-contract p-3 d-flex flex-column justify-content-center hide">
+                    <h4 class="align-self-center mt-5 mb-3">ВЫ ГОТОВЫ ЗАКЛЮЧИТЬ ДОГОВОР?</h4>
+                    <p class="d-flex justify-content-center m-0" style="font-size: 14px">Начните экономить и получать качественный сервис уже сегодня</p>
+                    <p class="d-flex justify-content-center mb-2" style="font-size: 14px">Заполните форму и мы вам перезвоним</p>
+                    <div class="d-flex flex-column justify-content-center">
+                        <input type="text" placeholder="Ваш номер телефона" class="col-lg-10 d-flex justify-content-center my-2 align-self-center">
+                        <input type="text" placeholder="Ваша почта" class="col-lg-10 d-flex justify-content-center my-2 align-self-center">
+                        <input type="text" placeholder="ИНН" class="col-lg-10 d-flex justify-content-center my-2 align-self-center">
+                    </div>
+                    <p class="d-flex justify-content-center pt-1 mb-0">Выберите тип договра</p>
+                    
+                    <div class="dropdown d-flex justify-content-center">
+                        <button type="button" class="btn bg-white dropdown-toggle col-xl-5 col-lg-5 col-md-6 col-sm-4 col-4 d-flex justify-content-end p-2" data-toggle="dropdown">
+                            
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Пункт 1</a>
+                            <a class="dropdown-item" href="#">Пункт 2</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around pt-2 col-lg-11">
+                        <input type="checkbox" class="mr-2 mt-1 d-flex align-items-baseline">
+                        <p style="font-size: 10px"> Я согласен на обработку персональных данных на основе федерального закона РФ "О ПЕРСОНАЛЬНЫХ ДАННЫХ", № 152-ФЗ 1 СТ. 0 </p>
+                    </div>
+                    <button  class="col-lg-5 align-self-center">ОТПРАВИТЬ ЗАЯВКУ</button>
+
+            </div>
+
+            <!-- Warehouse Body -->
+            <div class="col-lg-6 col-md-12 col-sm-12 warehouse-info">
+                <div class="warehouse-about"> 
+                    <p><strong>Сервис доставки заказов</strong></p>
+                    <p><strong>для вас и вашего бизнеса</strong></p>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <button type="button" class="col-lg-3 col-md-3 btn btn-outline-success warehouse-button"><strong>Заказать звонок</strong></button>
+                    <button type="button" class="col-lg-3 col-md-3 md-order-2 btn btn-outline-success warehouse-button get-contract"><strong>Подготовить договор</strong></button>
+                    <button type="button" class="col-lg-3 col-md-3  btn btn-outline-success warehouse-button"><strong>Рассчитать услугу</strong></button>
+                    
+                </div>
+                <div class="warehouse-text">
+                    <p><strong>Гибкие решения</strong></p>
+                    <p><strong>и индивидуальный подход</strong></p>
+                </div>
+                <div class="boxes">
+                    <img src="./imgs/boxes-2.jpg">
+                </div>
+            </div>
+        
+            <div class="col-lg-6 col-md-12 col-sm-12 warehouse-img-wrapper" >
+                <img src="./imgs/warehouse.png" class="warehouse-img">
+            </div> 
+                      
+        </div>
+    </div>
+
+    <!-- Why We -->
+    <div class="container-fluid p-0 why-we" >
+        <div class="why-we-logo-pic">
+            <img src="./imgs/line-1.png" style="width: 100%;">
+        </div>
+        <div class="col-lg-12 text-white d-flex justify-content-center">
+            <h3>Почему мы?</h3>
+        </div>
+
+        <div class="container why-we-content" style="text-align:center">
+            <div class="row d-flex justify-items-between" >
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-1.png"></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat reiciendis aspernatur veniam commodi suscipit recusandae quis voluptas quod atque iste adipisci beatae itaque, ex quas, similique aperiam cum maiores?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-2.png"></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur cumque ullam corporis necessitatibus maiores dignissimos ipsa placeat doloribus laborum corrupti nobis iure officiis tenetur, ratione eius qui aspernatur quis asperiores.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-3.png" alt=""></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro, iste ipsam neque assumenda amet error eaque excepturi accusamus laborum officia, sunt doloribus a minus quod molestiae quas mollitia in.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-4.png"></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat reiciendis aspernatur veniam commodi suscipit recusandae quis voluptas quod atque iste adipisci beatae itaque, ex quas, similique aperiam cum maiores?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-5.png"></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur cumque ullam corporis necessitatibus maiores dignissimos ipsa placeat doloribus laborum corrupti nobis iure officiis tenetur, ratione eius qui aspernatur quis asperiores.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div><img src="./imgs/why-we/pic-6.png" alt=""></div>
+                    <div>
+                        <p class="why-we-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro, iste ipsam neque assumenda amet error eaque excepturi accusamus laborum officia, sunt doloribus a minus quod molestiae quas mollitia in.
+                        </p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+
+        <div>
+            <img src="./imgs/line-2.png" style="width: 100%;">
+        </div>
+    
+    </div>   
+
+    <!-- Intrasting Facts -->
+    <div class="container facts">
+        <div class="col-lg-12 facts-header">
+
+            <div class="row d-flex align-items-center justify-content-center facts-caption">
+                <div>
+                    <h3><strong>Интересные факты</strong></h3>
+                    <p>о компании СДЭК</p>
+                </div>
+                <div class="logo-pic">
+                    <img src="./imgs/facts/facts-box.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="facts-content">
+            <img src="./imgs/facts/facts-statistic.png" class="facts-content-img">
+        </div>
+    </div>
+
+    <hr class="short-line">
+
+
+    <!-- Videos -->
+    <div class="container part-video">
+        <div class="col-lg-12 video-header">
+
+            <div class="row  justify-content-center align-items-center">
+                <div class="logo-pic">
+                    <img src="./imgs/for-video/video-caption-icon.png">
+                </div>
+                <div class="video-caption">
+                        <h3><strong>Видео отзывы</strong></h3>
+                    </div>
+            </div>
+        </div>
+
+        <div class="video-body">   
+
+            <div class="row d-flex justify-content-center video-content col-md-12 col-sm-10 mx-auto">
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center video-content col-md-12 col-sm-10 mx-auto">
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="embed-responsive embed-responsive-16by9 video-content-item">
+                        <iframe src="https://www.youtube.com/embed/EQNZVfGbaBU" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+            </div>                
+
+        </div>
+    </div>
+
+    <hr class="short-line">
+
+
+    <!-- Tariffs -->
+    <div class="container tariffs-part">
+
+        <div class="col-lg-12 tariffs-caption">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div>
+                    <h3>Тарифы</h3>
+                </div>
+                <div class="logo-pic">
+                    <img src="./imgs/tariff/tariff-caption-logo.png">
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row tariffs-content">
+            <div class="col-sm-12 row justify-content-around">
+                
+                
+                <div class="col-lg-5 col-md-6 col-sm-6 col-7 mt-2">
+                    <div class="tariff-info-block-caption-none">
+                        <p class="tariff-info-text-caption"><strong></br>ХАРАКТЕРИСТИКИ</strong> </p>
+                    </div>
+                    <p class="tariff-info-line tariff-info-text">Тариф "Посылка</p>
+                    <p class="tariff-info-line tariff-info-text">Опция для ИМ</p>
+                    <p class="tariff-info-line tariff-info-text">Наложный платеж</p>
+                    <p class="tariff-info-line tariff-info-text">Безналичная пост-оплата за услуги доставки</p>
+                    <p class="tariff-info-line tariff-info-text">Скидки от объема отправлений</p>
+                    <p class="tariff-info-line tariff-info-text">Закрепленный менеджер</p>
+                    <p class="tariff-info-line tariff-info-text">Бесплатные пакеты а-4, а-3, Конверты А-4</p>
+                    <p class="tariff-info-line tariff-info-text">Интеграция с базой СДЭК по API-протоколу</p>
+                    <p class="tariff-info-line tariff-info-text">Отслеживание заказа</p>
+                    <p class="tariff-info-line tariff-info-text">Личный кабинет</p>
+                    <p class="tariff-info-line tariff-info-text">Страхование</p>
+                    <p class="tariff-info-text">SMS оповещение</p>
+                </div>
+                <div class="col-sm-4 col-4 col-md-2 col-lg-2 mt-2 justify-content-center tariffs-content-block">
+                    <div class="tariff-info-block-caption">
+                        <p class="tariff-info-text-caption"><strong>БЕЗ </br> ДОГОВОРА</strong> </p>
+                    </div>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p> 
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <button class="col-lg-10 col-md-10 col-sm-10 col-10 btn p-0 m-2">
+                        <p class="tariffs-button"> Оставить </br>
+                            заявку
+                        </p>
+                    </button>
+                </div>
+
+
+                <div class="col-lg-5 col-md-6 col-sm-6 col-7 mt-2 visible-for-low-screen ">
+                    <div class="tariff-info-block-caption-none">
+                        <p class="tariff-info-text-caption"><strong></br>ХАРАКТЕРИСТИКИ</strong> </p>
+                    </div>
+                    <p class="tariff-info-line tariff-info-text">Тариф "Посылка</p>
+                    <p class="tariff-info-line tariff-info-text">Опция для ИМ</p>
+                    <p class="tariff-info-line tariff-info-text">Наложный платеж</p>
+                    <p class="tariff-info-line tariff-info-text">Безналичная пост-оплата за услуги доставки</p>
+                    <p class="tariff-info-line tariff-info-text">Скидки от объема отправлений</p>
+                    <p class="tariff-info-line tariff-info-text">Закрепленный менеджер</p>
+                    <p class="tariff-info-line tariff-info-text">Бесплатные пакеты а-4, а-3, Конверты А-4</p>
+                    <p class="tariff-info-line tariff-info-text">Интеграция с базой СДЭК по API-протоколу</p>
+                    <p class="tariff-info-line tariff-info-text">Отслеживание заказа</p>
+                    <p class="tariff-info-line tariff-info-text">Личный кабинет</p>
+                    <p class="tariff-info-line tariff-info-text">Страхование</p>
+                    <p class="tariff-info-text">SMS оповещение</p>
+                </div>
+                <div class="col-sm-4 col-4 col-md-2 col-lg-2 mt-2 justify-content-center tariffs-content-block">
+                    <div class="tariff-info-block-caption">
+                        <p class="tariff-info-text-caption"><strong>ДОГОВОР </br >ДОСТАВКИ</strong> </p>
+                    </div>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="far fa-times-circle"></i></p> 
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <button class="col-lg-10 col-md-10 col-sm-10 col-10 btn p-0 m-2">
+                        <p class="tariffs-button"> Оставить </br>
+                            заявку
+                        </p>
+                    </button>
+                </div>
+
+
+                <div class="col-lg-5 col-md-6 col-sm-6 col-7 mt-2 visible-for-low-screen ">
+                    <div class="tariff-info-block-caption-none">
+                        <p class="tariff-info-text-caption"><strong></br>ХАРАКТЕРИСТИКИ</strong> </p>
+                    </div>
+                    <p class="tariff-info-line tariff-info-text">Тариф "Посылка</p>
+                    <p class="tariff-info-line tariff-info-text">Опция для ИМ</p>
+                    <p class="tariff-info-line tariff-info-text">Наложный платеж</p>
+                    <p class="tariff-info-line tariff-info-text">Безналичная пост-оплата за услуги доставки</p>
+                    <p class="tariff-info-line tariff-info-text">Скидки от объема отправлений</p>
+                    <p class="tariff-info-line tariff-info-text">Закрепленный менеджер</p>
+                    <p class="tariff-info-line tariff-info-text">Бесплатные пакеты а-4, а-3, Конверты А-4</p>
+                    <p class="tariff-info-line tariff-info-text">Интеграция с базой СДЭК по API-протоколу</p>
+                    <p class="tariff-info-line tariff-info-text">Отслеживание заказа</p>
+                    <p class="tariff-info-line tariff-info-text">Личный кабинет</p>
+                    <p class="tariff-info-line tariff-info-text">Страхование</p>
+                    <p class="tariff-info-text">SMS оповещение</p>
+                </div>
+                <div class="col-sm-4 col-4 col-md-2 col-lg-2 mt-2 justify-content-center tariffs-content-block">
+                    <div class="tariff-info-block-caption">
+                        <p class="tariff-info-text-caption"><strong>ДОГОВОР </br> ИНТЕРНЕТ-МАГАЗИНОВ</strong> </p>
+                    </div>    
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p> 
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <p class="tariff-content-simbol"><i class="fas fa-check-circle"></i></p>
+                    <button class="col-lg-10 col-md-10 col-sm-10 col-10 btn p-0 m-2">
+                        <p class="tariffs-button"> Оставить </br>
+                            заявку
+                        </p>
+                    </button>
+                </div>   
+            </div>
+            
+        </div>
+
+        <hr class="short-line">
+
+        <!-- Calculator -->
+        <div class="container calc-part">
+            <div class="col-lg-12">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="logo-pic">
+                        <img src="./imgs/calc/calc.png">
+                    </div>
+                    <div><h3>Калькулятор</h3> </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-12 calc-content">
+                <div class="calc-content-padding-box">
+                    <div><p>Начните набирать и выберите из выпадающего списка</p></div>
+                    <div class="row d-flex ">
+                        <div class="col-lg-6">
+                            <input type="text" size="40" placeholder="От куда" style="border-radius: 5px">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" size="40" placeholder="Куда" style="border-radius: 5px">
+                        </div>
+                    </div>
+                    <div class="calc-content-caption">
+                        <h4><strong>Параметры мест</strong></h4>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <p>Вес (в кг)*, Габариты ДхШхВ (в см)**</p>
+                    </div>
+
+                    <div class="col-lg-6 p-0" style="font-size: 25px">
+                        <input type="text" size="2" style="border-radius: 5px">
+                        <span>,</span>
+                        <input type="text" size="2" style="border-radius: 5px">
+                        <span>x</span>
+                        <input type="text" size="2" style="border-radius: 5px">
+                        <span>x</span>
+                        <input type="text" size="2" style="border-radius: 5px">
+                    </div>
+
+                    <div >
+                        <p><a href="#" class="calc-green-text">Добавить еще места</a></p>
+                    </div>
+
+                    <div>
+                        <p>* Поля, отмеченные звездочкой, обязательны для заполнения</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <button class="col-lg-8 btn calc-button">РАССЧИТАТЬ СТОИМОСТЬ</button>
+                    </div> 
+                </div>                
+            </div>
+
+        </div>
+
+        <hr class="short-line">
+
+        <!-- Parners -->
+        <div class="container partner-part">
+
+            <div class="partners-caption col-lg-12">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div>
+                        <h3>Партнеры</h3>
+                    </div>
+                    <div class="logo-pic">
+                        <img src="./imgs/Partners/partner-logo.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="partners-content">
+                <div class="row d-flex justify-content-between align-items-center partners-row">
+                    <div class="col-lg-4 col-md-3 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Tinkoff.png">
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/AliExpress.png">
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/ReadCity.png">
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-between align-items-center partners-row">
+                    <div class="col-lg-2 col-md-4 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Ulmart.png">
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Beru.png">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Sber.png">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/H&M.png">
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-between align-items-center partners-row">
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/lamoda.png">
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Sherlock.png">
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Ozon.png">
+                    </div>
+                    <div class="col-lg-2 col-md-5 col-sm-12 col-12 partners-item-png">
+                        <img src="./imgs/Partners/Pleer.png">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center partners-6k">
+                    <h4><strong>И еще более 6000 клиентов</strong></h4>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button class="col-lg-3 btn partners-btn">Хочу стать партнером</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer p-0">
+        <div class="footer-header">
+            <img src="./imgs/footer/footer-head.png" style="width: 100%">
+        </div>
+
+        <div class="container">
+            <div class="col-lg-12 row d-flex">
+                <div class="col-lg-4 col-md-8">
+                    <img src="./imgs/footer/footer-logo.png">
+                </div>
+                <div class="col-lg-6 footer-free-window-header">
+
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-call-us-wrap" >
+                        <div class="green-phone-number">
+                            <h4>8(800)123-45-67</h4>
+                        </div>
+                        <div class="footer-call-us-text">
+                            <span>Звонок бесплатный по РФ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 row d-flex align-items-center">
+                <div class="col-lg-4">
+                    <p class="footer-logo-info">Официальный сайт СДЭК <a href="#" class="cdek-website">cdek.ru</a> </p>
+                </div>
+
+                <div class="col-lg-6 footer-parts">
+                    <h3>Разделы</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-12 row d-flex align-items-center footer-parts-info-adaptive">
+                <div class="col-lg-4 col-md-3 col-sm-1 col-0"></div>
+
+                <div class="col-lg-6 col-md-5 col-sm-5 col-5">
+                    <div class="row footer-parts-row1">
+                        <div class="col-lg-5">
+                            <h5>Работать с нами</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Калькулятор</h5>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5>Тарифы</h5>
+                        </div>    
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h5>Почему мы?</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>Партнеры</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-1 col-sm-3 col-7">
+                    <img src="./imgs/footer/car.png">
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 row d-flex footer-last-row py-5" style="font-size: 14px;">
+                <div class="col-lg-4 footer-last-row-a">
+                    <p class="footer-rows-info"><a href="#" class="footer-a">Политика обработки данных</a></p>
+                    <p class="footer-rows-info"><a href="#" class="footer-a">Договор Оферты</a></p>
+                </div>
+                <div class="col-lg-8 p-0">
+                    <div class="col-lg-12">
+                        <p class="footer-rows-info">ООО "СДЭК-Логистические решения" ОГРН 5157746186956  ИНН 7728325896, КПП 772801001</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="footer-rows-info">Юридический адресс: 117342, г. Москва, ул. Введенского дом 23А Строение 2 пом. XIV ком 62</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="footer-rows-info">
+                            Фактический адресс: г. Москва, ул. Ленинский проспект д.71, 8 88 31-99-43, v.boldokov@cdek.ru
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html

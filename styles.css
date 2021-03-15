@@ -1,0 +1,498 @@
+.hide {
+    display: none !important;
+}
+
+.fixed {
+    position:fixed; 
+    width:100%; 
+    }
+
+@media (max-width: 1200px) {
+
+    .tariff-info-text-caption {
+        font-size: 11px !important;
+    }
+    
+    
+    .tariff-info-text {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+    
+    .tariff-content-simbol {
+        font-size: 11px;
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .header-logo-wrapper,.header-call-us {
+        display: flex;
+        flex-direction: column;    
+    }
+
+
+    .header-logo {
+        order: 1;
+        flex-direction: column;
+    }
+    
+    .header-call-us {
+        order: 2; 
+        align-items: flex-end;
+    }
+
+    .header-navigation {
+        margin-top: 30px;
+        order: 3;
+        font-size: 14px;
+     
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .warehouse-about, .warehouse-text {
+        text-align: center;
+    }
+
+    .warehouse-button {
+        margin-top: 5px;
+    }
+
+    .warehouse-about {
+        margin: 30px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .boxes {
+        display: none;
+    }
+
+    .warehouse-info{
+        order: 2;
+    }
+
+    .warehouse-img-wrapper {
+        order: 1;
+    }
+
+   .warehouse-img {
+    width: 100%;
+    }
+
+    .video-content-item{
+        margin: 10px;
+    }
+    
+    .tariff-info-text-caption {
+        font-size: 9px !important;
+    }
+    
+    
+    .tariff-info-text {
+        font-size: 9px !important;
+        white-space: nowrap;
+    }
+    
+    .tariff-content-simbol {
+        font-size: 9px !important;
+        margin-bottom: 17px;
+    }
+ 
+    
+    .footer-free-window-header{
+        order: 2
+    }
+    .footer-parts{
+        margin-top: 15px;
+    }
+
+    .footer-parts-row1 {
+        margin-bottom: 0 !important;
+    }
+
+    .footer-parts-info-adaptive {
+        flex-wrap: nowrap;
+        margin-right: 0;
+        margin-left: 0 
+    }
+
+    .footer-last-row-a{
+        margin-bottom: 20px;
+    }
+}
+  
+@media (max-width: 768px) {
+    .partners-row{
+        text-align: center
+    }
+
+
+    .footer-free-window-header {
+        order: 2
+    }
+    
+    .visible-for-low-screen {
+        display: block !important;
+        white-space: nowrap;
+    }
+}
+
+body {
+    min-width: 470px;
+}
+
+#black-panel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* display: none; */
+    z-index: 1;
+}
+
+.form-get-contract {
+    background: green;
+    color: white;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    /* text-align: center; */
+    left: 30%;
+    /* display: none; */
+
+}
+
+
+
+.header {
+    margin-top: 50px;
+}
+
+.header-logo {
+    margin-bottom: 10px
+}
+
+
+/* WAREHOUSE */
+
+.warehouse-row {
+    position: relative;
+}
+
+.header-call-us {
+    color: green;
+    white-space: nowrap;
+}
+
+.header-navigation {
+    font-size: 14px;
+}
+
+.header-call-us-text {
+    font-size: 12px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.warehous {
+    position: relative;
+}
+
+.warehouse-about {
+    color: green;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height: 0.5;
+}
+
+.warehouse-button {
+    border-radius: 7px;
+    line-height: 1.2;
+    color: black;
+}
+
+.warehouse-button:hover {
+    color: white;
+}
+
+.warehouse-text {
+    font-size: 20px;
+    line-height: 0.5;
+    margin-top: 50px
+}
+
+
+.no-padding {
+    padding: 0;
+}
+
+.boxes{
+    position: absolute;
+    top: 28.7em;
+    mix-blend-mode: multiply;
+    mix-blend-mode: overlay;
+    mix-blend-mode: darken;
+}
+
+
+
+
+/* WHY WE */
+
+.why-we {
+    margin-top: 25px;
+    background-color: rgb(116, 182, 46)
+}
+
+.why-we-content {
+    margin-top: 50px;
+}
+
+.why-we-text {
+    color: white;
+    margin-top: 25px;
+}
+
+
+.logo-pic {
+    margin-right: 25px;
+    margin-left: 25px
+}
+
+
+/* INTERESTING FACTS */
+
+.facts {
+    margin-top: 75px;
+}
+
+.facts-caption {
+    text-align: center;
+}
+
+.facts-content {
+    margin-top: 70px;
+}
+
+.facts-content-img{
+    text-align: center;
+    width: 100%;
+}
+
+
+.short-line {
+    width: 30%;
+    background-color: darkgray;
+    margin-top: 100px;
+}
+
+
+
+/*  VIDEOS */
+
+.part-video {
+    margin-top: 75px;
+}
+
+.video-content {
+    margin-top: 30px;
+}
+
+.video-content-item {
+    border-radius: 7px;
+    border: 2px solid transparent;
+}
+
+.video-content-item:hover {
+    border: 2px solid green;
+}
+
+
+
+/* TARIFS */
+
+.tariffs-part {
+    margin-top: 75px;
+}
+
+.tariffs-content {
+    margin-top: 50px;
+}
+
+
+
+.tariffs-content-block {
+    text-align: center;
+    border: 2px solid darkgray;
+    box-shadow: 0 0 10px gray;
+    padding: 0;
+    border-radius: 10px;
+}
+
+
+.tariff-info-block-caption {
+    text-align: center;
+    background: rgb(227, 240, 213);
+    border-bottom: 1px solid darkgray;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.tariff-info-line {
+    border-bottom: 1px solid darkgray;
+}
+
+.tariff-info-block-caption-none {
+    border-bottom: 1px solid transparent;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tariff-info-text-caption {
+    font-size: 14px
+}
+
+
+.tariff-info-text {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.tariff-content-simbol {
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.tariffs-button {
+    margin-bottom: 0;
+    color: black;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+.tariffs-button:hover {
+    color: white;
+    background: green;
+}
+
+.fas {
+    color: green
+}
+
+
+
+/* CALCULATOR */
+
+.calc-part {
+    margin-top: 75px;
+}
+
+.calc-content {
+    margin-top: 50px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.calc-content-padding-box {
+    margin: 40px auto;
+}
+
+.calc-content-caption {
+    margin-top: 40px;
+}
+
+.calc-green-text{
+    color: green;
+    text-decoration: underline;
+}
+
+.calc-button{
+    background: yellow;
+    border-radius: 5px;
+}
+
+
+
+/* PARTNERS */
+
+.partners-caption{
+    margin-top: 100px;
+}
+
+.partners-content, .partners-row {
+    margin-top: 25px;
+}
+
+.partners-item-png{
+    margin-top: 25px;
+}
+
+.partners-6k {
+    margin-top: 50px;
+}
+
+.partners-btn {
+    background: rgb(116, 182, 46);
+    color:white;
+    margin-top: 50px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(207, 224, 210)
+}
+
+.footer-call-us-wrap {
+    white-space: nowrap;
+    line-height: 0.5;
+
+}
+
+.green-phone-number {
+    color: green
+}
+
+.cdek-website {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-parts {
+    color: green;
+}
+
+.footer-logo-info {
+    margin-bottom: 0;
+}
+
+.footer-parts-row1 {
+    margin-bottom: 10px;
+}
+
+
+.footer-rows-info {
+    margin-bottom: 0;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: black;
+}
+
+.visible-for-low-screen {
+    display: none;
+}
